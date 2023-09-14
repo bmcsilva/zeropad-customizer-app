@@ -18,14 +18,16 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-<br />
-<img src="https://img.shields.io/github/downloads/bmcsilva/zeropad-customizer-app/total.svg">
-<img src="https://img.shields.io/github/watchers/bmcsilva/zeropad-customizer-app.svg">  
-<!--- <img src="https://img.shiels.io/github/realese/bmcsilva/zeropad-customizer-app.svg" --->
-         
+<div align="center">
+         <img src="https://img.shields.io/github/stars/bmcsilva/zeropad-customizer-app.svg?style=for-the-badge">
+         <img src="https://img.shields.io/github/issues/bmcsilva/zeropad-customizer-app.svg?style=for-the-badge">
+         <img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555">
+         <br />
+         <img src="https://img.shields.io/github/downloads/bmcsilva/zeropad-customizer-app/total">
+         <img src="https://img.shields.io/github/watchers/bmcsilva/zeropad-customizer-app">  
+         <img src="https://img.shields.io/github/v/release/bmcsilva/zeropad-customizer-app">
+         <img src="https://img.shields.io/github/release-date/bmcsilva/zeropad-customizer-app">
+</div>
 
 <!-- PROJECT LOGO -->
 <br />
@@ -210,14 +212,3 @@ See the [open issues](https://github.com/bmcsilva/zeropad-customizer-app/issues)
 <a href="https://discord.com/users/513401442267037714" target="blank"><img align="center" src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a69f118df70ad7828d4_icon_clyde_blurple_RGB.svg" alt="bruno-m-c-silva" height="30" width="40" /></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[stars-shield]: https://img.shields.io/github/stars/bmcsilva/zeropad-customizer-app.svg?style=for-the-badge
-[stars-url]: https://github.com/bmcsilva/zeropad-customizer-app/stargazers
-[issues-shield]: https://img.shields.io/github/issues/bmcsilva/zeropad-customizer-app.svg?style=for-the-badge
-[issues-url]: https://github.com/bmcsilva/zeropad-customizer-app/issues
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/bruno-m-c-silva/
-[version-shield]: https://img.shields.io/badge/Version-0.0.1-blue
-[version-url]: https://img.shields.io/badge/Version-0.0.1-blue
