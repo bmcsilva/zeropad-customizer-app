@@ -133,6 +133,17 @@ Here's a glimpse of the application:
 This application is compatible with the following operating systems
 * Windows 7 or later
 * Ubuntu 20.04 or later
+* <div align="left">
+    <p>A Raspberry Pi Pico W (At this date, this will <b>not work on non W devices</b>)</p>
+    <img align="Center" src="https://github.com/bmcsilva/zeropad-customizer-app/blob/main/assets/pi_pico_w.jpeg" alt="pi_pico_w" height="300"/>
+    <br />
+* <div align="left">
+    <p>A Pico RGB Keypad Base (PIM551) </p>
+    <img align="Center" src="https://github.com/bmcsilva/zeropad-customizer-app/blob/main/assets/pim551.jpg" alt="pi_pico_w" height="300"/>
+    <br />
+</div>
+
+* An accessible WiFi connection to reach the host (needed for the Raspberry)
 
 ### Installation
 Not ready!
@@ -165,6 +176,7 @@ Not ready!
 - [ ] Add support for multiple pages within the application.
 - [ ] Implement the ability to export and import presets.
 - [ ] Enable the export and import of a database.
+- [ ] Make it work on non "W" devices
 <!-- - [x] Add Changelog -->
 
 See the [open issues](https://github.com/bmcsilva/zeropad-customizer-app/issues) for a full list of proposed features (and known issues).
