@@ -88,13 +88,13 @@ Here's a glimpse of the application:
 <br />
 <div align="center">
     <p><i>After the first boot of the application</i></p>
-    <img src="https://github.com/bmcsilva/zeropad-customizer-app/blob/main/assets/screen_1.png" alt="screen_1" />
+    <img src="https://github.com/bmcsilva/zeropad-customizer-app/blob/main/assets/zero_pad_ss_1.png" alt="screen_1" />
 </div>
 
 <br />
 <div align="center">
     <p><i>A sample of some customized buttons</i></p>
-    <img src="https://github.com/bmcsilva/zeropad-customizer-app/blob/main/assets/screen_3.png" alt="screen_3" />
+    <img src="https://github.com/bmcsilva/zeropad-customizer-app/blob/main/assets/zero_pad_ss_2.png" alt="screen_3" />
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -146,22 +146,41 @@ This application is compatible with the following operating systems
 * An accessible WiFi connection to reach the host (needed for the Raspberry)
 
 ### Installation
-Not ready!
-<!--
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/bmcsilva/zeropad-customizer-app.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
--->
+<b>Warning:</b> this will wipe your device. If you have stuff inside, do a backup now.
+
+0. Required files on the releases:
+    - Download the ZeroPad-Customizer-raspberry-v0.0.1.zip
+    - Download the ZeroPad-Customizer for your Operating System
+
+1. Wipe the entire Raspberry
+    - Remove the USB cord from the raspberry
+    - Press the white button on the raspberry (<b><i>BOOOTSEL</b></i>)
+    - Download this file https://datasheets.raspberrypi.com/soft/flash_nuke.uf2
+    - Copy the file into inside the raspberry
+    - Wait for the raspberry to boot
+    
+2. Setup the Raspberry Pi Pico W.
+   - Download the "latest stable release of CircuitPython" https://circuitpython.org/board/raspberry_pi_pico_w/
+   - Copy the file into inside the raspberry
+   - Wait for the raspberry to boot
+
+3. After it boots, go to the ZeroPad-Customizer-raspberry-v0.0.1.zip, and unzip it.
+4. Copy the content, and place it inside the raspberry
+
+5. Edit the file <i><b>"network.cfg"</b></i> and change the <i><b><your_ssid></b></i> and <i><b><your_password></b></i> to the WiFi network of your desire, and then save.
+5.1 If you dont want to create said file, you can skip this step, and when you reach the <b>#9</b>, come back again here, because, on the first boot, the raspberry will start on AP_Mode. 
+    Also, after, if the network you selected isnt reachable, it will also make the raspberry start in AP Mode
+    - 5.1.1 Connect to the network called "ZeroPad-RPI" and insert the password "1234567890"
+    - 5.1.2 Type this on your browser http://192.168.1.4/rpi/?ssid=<YOUR_SSID>&pwd=<PASSWORD> and press send
+    - 5.1.3 On the browser you are going to see a message. If it's OK, just unplug the Raspberry, and plug it again, else, check what you have typed.
+        - Note: You can use the command in any time. Just be aware that, any command sent, will need a unplug/plug of the raspberry
+        - Theres also the command http://picow/rpi/?whoami=1, that responds with the raspberry address. If for some reason your app is not communicating, try this command.
+6. Copy the file <i><b>"network.cfg"</b></i> to the raspberry
+7. Copy the files <i><b>"code.py"</b></i> and <i><b>"boot.py"</b></i> to the Raspberry 
+8. Unplug the Raspberry
+9. Plug and wait for the keys turn off
+10. Start the ZeroPad Customizer app
+11. Thats it. Ready to go!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- TODO LIST -->
