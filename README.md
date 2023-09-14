@@ -94,7 +94,7 @@ Here's a glimpse of the application:
 <br />
 <div align="center">
     <p><i>A sample of some customized buttons</i></p>
-    <img src="https://github.com/bmcsilva/zeropad-customizer-app/blob/main/assets/screen_2.png" alt="screen_2" />
+    <!--<img src="https://github.com/bmcsilva/zeropad-customizer-app/blob/main/assets/screen_2.png" alt="screen_2" /> -->
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
