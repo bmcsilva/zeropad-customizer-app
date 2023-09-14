@@ -180,7 +180,7 @@ This application is compatible with the following operating systems
 6. Copy the file <i><b>"network.cfg"</b></i> to the raspberry
 7. Copy the files <i><b>"code.py"</b></i> and <i><b>"boot.py"</b></i> to the Raspberry 
 8. Unplug the Raspberry
-9. Plug and wait for the keys turn off
+9. Plug the raspberry<del>, and wait for the keys turn off</del>
 10. Start the ZeroPad Customizer app
 11. Thats it. Ready to go!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
