@@ -186,6 +186,6 @@ See the [open issues](https://github.com/bmcsilva/zeropad-customizer-app/issues)
 [issues-shield]: https://img.shields.io/github/issues/bmcsilva/zeropad-customizer-app.svg?style=for-the-badge
 [issues-url]: https://github.com/bmcsilva/zeropad-customizer-app/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/bmcsilva
+[linkedin-url]: https://www.linkedin.com/in/bruno-m-c-silva/
 [version-shield]: https://img.shields.io/badge/Version-0.0.1-blue
 [version-url]: https://img.shields.io/badge/Version-0.0.1-blue
