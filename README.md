@@ -67,14 +67,10 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<a href="https://github.com/bmcsilva/zeropad-customizer-app/assets/screen_1.png">
-    <img src="assets/screen_1.png" alt="screen_1">
-</a>
+<br />
 
 This project was born out of my aspiration to showcase my coding abilities. The initial concept was to create a keypad capable of simulating keypresses on a connected device, such as my PC. As I explored similar projects, I came across numerous individuals building their own 'stream decks,' and I thought to myself, 'I can do this too.' And so, I set out to prove just that.
 
@@ -84,6 +80,22 @@ I embarked on this journey, leveraging Python examples from the CircuitPython li
 * Creating a PC program that would enable me to customize the keypad's colors and key bindings to my liking.
 
 The Configurator app was easy to create, thanks to my proficiency in C and GTK, which are like my comfort zone. However, the python part posed a challenge because I had never coded in that language before.
+
+<br />
+Here's a glimpse of the application:
+<br />
+
+<br />
+<div align="center">
+    <p><i>After the first boot of the application</i></p>
+    <img src="https://github.com/bmcsilva/zeropad-customizer-app/blob/main/assets/screen_1.png" alt="screen_1" />
+</div>
+
+<br />
+<div align="center">
+    <p><i>A sample of some customized buttons</i></p>
+    <img src="https://github.com/bmcsilva/zeropad-customizer-app/blob/main/assets/screen_2.png" alt="screen_2" />
+</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,11 +115,14 @@ The Configurator app was easy to create, thanks to my proficiency in C and GTK, 
      <img src="https://circuitpython.org/assets/images/logo.png" height="40"/> 
 </a>
 
-All the assetts (images, backgrounds, etc...) are made by Freepik can be found on [their website](https://www.freepik.com/)
 <br />
-<a href="https://www.freepik.com/">
-     <img src="https://cdn-teams-slug.flaticon.com/freepik.jpg" height="40"/> 
-</a>
+<div align="left">
+         <p>All the assetts (images, backgrounds, etc...) are made by Freepik can be found on <a href="https://www.freepik.com/">their website</a></p>
+         <a href="https://www.freepik.com/">
+              <img src="https://cdn-teams-slug.flaticon.com/freepik.jpg" height="40"/> 
+         </a>
+</div>
+
 
   
 <!-- GETTING STARTED -->
@@ -115,9 +130,9 @@ All the assetts (images, backgrounds, etc...) are made by Freepik can be found o
 
 ### Prerequisites
 
-For this work you need a computer with 
-* Windows 7 or above
-* Ubuntu 20.04 or above
+This application is compatible with the following operating systems
+* Windows 7 or later
+* Ubuntu 20.04 or later
 
 ### Installation
 
