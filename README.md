@@ -135,7 +135,8 @@ This application is compatible with the following operating systems
 * Ubuntu 20.04 or later
 
 ### Installation
-
+Not ready!
+<!--
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
@@ -149,7 +150,7 @@ This application is compatible with the following operating systems
    ```js
    const API_KEY = 'ENTER YOUR API';
    ```
-
+-->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- TODO LIST -->
