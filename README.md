@@ -27,14 +27,13 @@
          <img src="https://img.shields.io/github/v/release/bmcsilva/zeropad-customizer-app">
          <img src="https://img.shields.io/github/release-date/bmcsilva/zeropad-customizer-app">
 </div>
-
+    <div align="right">Download is here -></div> 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/bmcsilva/zeropad-customizer-app/assets/logo.png">
     <img src="assets/logo.png" alt="Logo" width="80" height="80">
   </a>
-    <div align="right">Download is here -></div> 
 <h3 align="center">ZeroPad Customizer: A free program that allows us to configure a PIM551 keypad and a Raspberry Pi Pico W to execute keybinds on our computer</h3>
 
   <p align="center">
@@ -43,8 +42,6 @@
     <a href="https://github.com/bmcsilva/zeropad-customizer-app/issues">Request Feature</a>
   </p>
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
