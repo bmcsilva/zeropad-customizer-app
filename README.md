@@ -179,6 +179,23 @@ This application is compatible with the following operating systems
     - 5.1.3 On the browser you are going to see a message. If it's OK, just unplug the Raspberry, and plug it again, else, check what you have typed.
         - Note: You can use the command in any time. Just be aware that, any command sent, will need a unplug/plug of the raspberry
         - Theres also the command http://picow/rpi/?whoami=1, that responds with the raspberry address. If for some reason your app is not communicating, try this command.
+        - Theres a problem with the DNS on some routers. For that, you need to find the RPI address manually. To do so:
+          - On <b><i>Ubuntu</b></i>, type this on the terminal:
+            -  <b><i>sudo apt-get install nmap</b></i>
+            -  <b><i>ip a</b></i> and search for <b><i>intet</b></i>. It shoul be an address, for example, <b><i>192.168.1.103/24</b></i>
+            - <b><i>sudo nmap -sn 192.168.1.0/24</b></i> change the 192.168.1 to yours. Important to the last digit be the <i>.0</b></i>
+          - On <b><i>Windows</b></i>, type this on the terminal:
+            - Use the program Wireless [Network Watcher](http://www.nirsoft.net/utils/wireless_network_watcher.html) to obtain the addresses
+         - To test the address, use the command http://<my_address>:80/rpi/?whoami=1, until you see a response on your screen
+           <div align="Center">
+              <img align="Center" src="https://github.com/bmcsilva/zeropad-customizer-app/blob/main/assets/screen_whoami_1.jpg" alt="screen_whoami" height="300"/>
+             <br />
+         </div>
+
+        
+            
+            
+            
 6. Copy the file <i><b>"network.cfg"</b></i> to the raspberry
 7. Copy the files <i><b>"code.py"</b></i> and <i><b>"boot.py"</b></i> to the Raspberry 
 8. Unplug the Raspberry
