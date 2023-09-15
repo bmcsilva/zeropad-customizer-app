@@ -21,9 +21,6 @@
 <div align="center">
          <img src="https://img.shields.io/github/stars/bmcsilva/zeropad-customizer-app.svg?style=for-the-badge">
          <img src="https://img.shields.io/github/issues/bmcsilva/zeropad-customizer-app.svg?style=for-the-badge">
-         <a href="https://www.linkedin.com/in/bruno-m-c-silva/">
-             <img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555">
-         </a>
          <br />
          <img src="https://img.shields.io/github/downloads/bmcsilva/zeropad-customizer-app/total">
          <img src="https://img.shields.io/github/watchers/bmcsilva/zeropad-customizer-app">  
