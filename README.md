@@ -184,7 +184,7 @@ This application is compatible with the following operating systems
             -  <b><i>sudo apt-get install nmap</b></i>
             -  <b><i>ip a</b></i> and search for <b><i>intet</b></i>. It shoul be an address, for example, <b><i>192.168.1.103/24</b></i>
             - <b><i>sudo nmap -sn 192.168.1.0/24</b></i> change the 192.168.1 to yours. Important to the last digit be the <i>.0</b></i>
-          - On <b><i>Windows</b></i>, type this on the terminal:
+          - On <b><i>Windows</b></i>:
             - Use the program Wireless [Network Watcher](http://www.nirsoft.net/utils/wireless_network_watcher.html) to obtain the addresses
          - To test the address, use the command http://<my_address>:80/rpi/?whoami=1, until you see a response on your screen
            <div align="Center">
