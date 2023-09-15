@@ -128,7 +128,8 @@ Here's a glimpse of the application:
   
 <!-- GETTING STARTED -->
 ## Getting Started
-
+* Heres a  <a href="https://www.youtube.com/playlist?list=PLLO5uk2SobPw9637IQluF0fxr4MJ_0fyl"> youtube playlist</a> showcassing the features
+  
 ### Prerequisites
 
 This application is compatible with the following operating systems
