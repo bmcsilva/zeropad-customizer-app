@@ -27,7 +27,7 @@
          <img src="https://img.shields.io/github/v/release/bmcsilva/zeropad-customizer-app">
          <img src="https://img.shields.io/github/release-date/bmcsilva/zeropad-customizer-app">
 </div>
-    <div align="right">Download is here -></div> 
+    <div align="right">Download is here ➡️</div> 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
