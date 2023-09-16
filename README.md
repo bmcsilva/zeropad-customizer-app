@@ -170,13 +170,13 @@ This application is compatible with the following operating systems
  - Note: If you dont want to create said file, you can skip this step, and when you reach the <b>#9</b>, come back again here, because, on the first boot, the raspberry will start on AP_Mode. 
     Also, after, if the network you selected isnt reachable, it will also make the raspberry start in AP Mode:
     - If you came back from <b>#9</b>:
-     - 1 Connect to the network called "ZeroPad-RPI" and insert the password "1234567890"
-     - 2 Type this on your browser http://192.168.1.4/rpi/?ssid=<YOUR_SSID>&pwd=<PASSWORD> and press send
-     - 3 On the browser you are going to see a message. If it's OK, just unplug the Raspberry, and plug it again, else, check what you have typed.
-        - Note: You can use the command in any time. Just be aware that, any command sent, will need a unplug/plug of the raspberry
-        - Theres also the command http://picow/rpi/?whoami=1, that responds with the raspberry address. If for some reason your app is not communicating, try this command.
-        - Theres a problem with the DNS on some routers. For that, you need to find the RPI address manually. To do so:
-          - On <b><i>Ubuntu</b></i>, type this on the terminal:
+      1. Connect to the network called "ZeroPad-RPI" and insert the password "1234567890"
+      2. Type this on your browser http://192.168.1.4/rpi/?ssid=<YOUR_SSID>&pwd=<PASSWORD> and press send
+      3. On the browser you are going to see a message. If it's OK, just unplug the Raspberry, and plug it again, else, check what you have typed.
+         - Note: You can use the command in any time. Just be aware that, any command sent, will need a unplug/plug of the raspberry
+         - Theres also the command http://picow/rpi/?whoami=1, that responds with the raspberry address. If for some reason your app is not communicating, try this command.
+         - Theres a problem with the DNS on some routers. For that, you need to find the RPI address manually. To do so:
+            - On <b><i>Ubuntu</b></i>, type this on the terminal:
             -  <b><i>sudo apt-get install nmap</b></i>
             -  <b><i>ip a</b></i> and search for <b><i>intet</b></i>. It shoul be an address, for example, <b><i>192.168.1.103/24</b></i>
             - <b><i>sudo nmap -sn 192.168.1.0/24</b></i> change the 192.168.1 to yours. Important to the last digit be the <i>.0</b></i>
