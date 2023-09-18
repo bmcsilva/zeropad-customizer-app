@@ -125,7 +125,7 @@ Here's a glimpse of the application:
   
 <!-- GETTING STARTED -->
 ## Getting Started
-* Heres a  <a href="https://www.youtube.com/playlist?list=PLLO5uk2SobPw9637IQluF0fxr4MJ_0fyl"> youtube playlist</a> showcassing the features
+* Heres a  <a href="https://www.youtube.com/playlist?list=PLLO5uk2SobPw9637IQluF0fxr4MJ_0fyl"> youtube playlist</a> showcasing the features
   
 ### Prerequisites
 
@@ -178,7 +178,7 @@ This application is compatible with the following operating systems
          - Theres a problem with the DNS on some routers. For that, you need to find the RPI address manually. To do so:
             - On <b><i>Ubuntu</b></i>, type this on the terminal:
              -  <b><i>sudo apt-get install nmap</b></i>
-             -  <b><i>ip a</b></i> and search for <b><i>intet</b></i>. It shoul be an address, for example, <b><i>192.168.1.103/24</b></i>
+             -  <b><i>ip a</b></i> and search for <b><i>intet</b></i>. It should be an address, for example, <b><i>192.168.1.103/24</b></i>
              - <b><i>sudo nmap -sn 192.168.1.0/24</b></i> change the 192.168.1 to yours. Important to the last digit be the <i>.0</b></i>
           - On <b><i>Windows</b></i>:
             - Use the program Wireless [Network Watcher](http://www.nirsoft.net/utils/wireless_network_watcher.html) to obtain the addresses
