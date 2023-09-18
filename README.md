@@ -148,7 +148,7 @@ This application is compatible with the following operating systems
 <b>Warning:</b> this will wipe your device. If you have stuff inside, do a backup now.
 
 0. Required files on the releases:
-    - Download the ZeroPad-Customizer-raspberry-v0.0.1.zip
+    - Download the ZeroPad-Customizer-raspberry-vx.x.x.zip
     - Download the ZeroPad-Customizer for your Operating System
 
 1. Wipe the entire Raspberry
