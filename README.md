@@ -206,7 +206,7 @@ This application is compatible with the following operating systems
 
 - [ ] Create an "About" window.
 - [x] Enable customization of button names (e.g., "Mute Microphone," "Run Excel," etc.).
-- [x] Enable the keypad to emulate gamepad functions, providing 16 individual keys.
+- [x] Enable the keypad to emulate gamepad functions, providing 16 individual keys.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <b><i>Note:</b></i> If no specific key is defined, this feature will operate as the default, resulting in a gamepad key press instead of a keyboard key press.
 - [ ] Implement the ability to select new effects.
 - [x] Enable button backlighting, with color changes upon pressing.
