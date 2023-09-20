@@ -205,9 +205,9 @@ This application is compatible with the following operating systems
 ## Todo list
 
 - [ ] Create an "About" window.
-- [ ] Enable customization of button names (e.g., "Mute Microphone," "Run Excel," etc.).
+- [x] Enable customization of button names (e.g., "Mute Microphone," "Run Excel," etc.).
 - [ ] Implement the ability to select new effects.
-- [ ] Enable button backlighting, with color changes upon pressing.
+- [x] Enable button backlighting, with color changes upon pressing.
 - [ ] Allow the use of Windows CMD or Ubuntu Terminal to execute custom user-defined commands (e.g., open an app, etc.).
 - [ ] Implement the capability to send HTTP requests to a specified target (e.g., send a POST command to turn off a light).
 - [ ] Add support for multiple pages within the application.
