@@ -153,7 +153,7 @@ This application is compatible with the following operating systems
 
 1. Wipe the entire Raspberry
     - Remove the USB cord from the raspberry
-    - Press the white button on the raspberry (<b><i>BOOOTSEL</b></i>)
+    - Press the white button on the raspberry (<b><i>BOOOTSEL</b></i>) and plugin to your computer
     - Download this file https://datasheets.raspberrypi.com/soft/flash_nuke.uf2
     - Copy the file into inside the raspberry
     - Wait for the raspberry to boot
@@ -168,7 +168,7 @@ This application is compatible with the following operating systems
 5. <b><i>THIS STEP WAS MISSING:</b></i> Extract the content of <b><i>lib.zip</b></i> and copy it to the inside of the raspberry
 
 6. Edit the file <i><b>"network.cfg"</b></i> and change the <i><b><your_ssid></b></i> and <i><b><your_password></b></i> to the WiFi network of your desire, and then save.
- - Note: If you dont want to create said file, you can skip this step, and when you reach the <b>#9</b>, come back again here, because, on the first boot, the raspberry will start on AP_Mode. 
+ - Note: If you dont want to create said file, you can skip this step, and when you reach the <b>#8</b>, come back again here, because, on the first boot, the raspberry will start on AP_Mode. 
     Also, after, if the network you selected isnt reachable, it will also make the raspberry start in AP Mode:
     - If you came back from <b>#9</b>:
       1. Connect to the network called "ZeroPad-RPI" and insert the password "1234567890"
@@ -188,17 +188,14 @@ This application is compatible with the following operating systems
               <img align="Center" src="https://github.com/bmcsilva/zeropad-customizer-app/blob/main/assets/screen_whoami_1.jpg" alt="screen_whoami" height="300"/>
              <br />
          </div>
-
-        
-            
-            
-            
-6. Copy the file <i><b>"network.cfg"</b></i> to the raspberry
-7. Copy the files <i><b>"code.py"</b></i> and <i><b>"boot.py"</b></i> to the Raspberry 
-8. Unplug the Raspberry
-9. Plug the raspberry<del>, and wait for the keys turn off</del>
-10. Start the ZeroPad Customizer app
-11. Thats it. Ready to go!
+7. Unplug the Raspberry and plug it back again.
+8. After the Raspberry Pi boots up, the keys will blink in <b>RED</b>, and then they will be lit in <b>YELLOW</b>. This indicates that the Raspberry Pi is in Access Point (AP) mode. If you skipped <b>step 8</b>, now is the time to complete it.
+9. Unplug the Raspberry and plug it back again.
+9. Unplug the Raspberry Pi, then plug it back in, and wait for the keys to perform one of the following actions:
+    - If you have a successful WiFi connection, the keys will blink in <b>GREEN.</b>
+    - If the WiFi connection fails, the keys will be lit in <b>RED</b>. Please check your configurations.
+11. Start the ZeroPad Customizer app
+12. Thats it. Ready to go!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- TODO LIST -->
