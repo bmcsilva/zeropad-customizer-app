@@ -207,6 +207,7 @@ This application is compatible with the following operating systems
 - [ ] Create an "About" window.
 - [x] Enable customization of button names (e.g., "Mute Microphone," "Run Excel," etc.).
 - [x] Enable the keypad to emulate gamepad functions, providing 16 individual keys.
+      - <b><i>Note:</b></i> If no specific key is defined, this feature will operate as the default.
 - [ ] Implement the ability to select new effects.
 - [x] Enable button backlighting, with color changes upon pressing.
 - [ ] Allow the use of Windows CMD or Ubuntu Terminal to execute custom user-defined commands (e.g., open an app, etc.).
