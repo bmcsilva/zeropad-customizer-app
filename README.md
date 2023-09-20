@@ -163,10 +163,11 @@ This application is compatible with the following operating systems
    - Copy the file into inside the raspberry
    - Wait for the raspberry to boot
 
-3. After it boots, go to the ZeroPad-Customizer-raspberry-v0.0.1.zip, and unzip it.
+3. After it boots, go to the ZeroPad-Customizer-raspberry-vx.x.x.zip, and unzip it.
 4. Copy the content, and place it inside the raspberry
+5. <b><i>THIS STEP WAS MISSING:</b></i> Extract the content of <b><i>lib.zip</b></i> and copy it to the inside of the raspberry
 
-5. Edit the file <i><b>"network.cfg"</b></i> and change the <i><b><your_ssid></b></i> and <i><b><your_password></b></i> to the WiFi network of your desire, and then save.
+6. Edit the file <i><b>"network.cfg"</b></i> and change the <i><b><your_ssid></b></i> and <i><b><your_password></b></i> to the WiFi network of your desire, and then save.
  - Note: If you dont want to create said file, you can skip this step, and when you reach the <b>#9</b>, come back again here, because, on the first boot, the raspberry will start on AP_Mode. 
     Also, after, if the network you selected isnt reachable, it will also make the raspberry start in AP Mode:
     - If you came back from <b>#9</b>:
