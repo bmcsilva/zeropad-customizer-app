@@ -142,7 +142,7 @@ This application is compatible with the following operating systems
     <br />
 </div>
 
-* An accessible WiFi connection to reach the host (needed for the Raspberry)
+* An accessible 2.4Ghz WiFi connection to reach the host (needed for the Raspberry)
 
 ### Installation
 <b>Warning:</b> this will wipe your device. If you have stuff inside, do a backup now.
